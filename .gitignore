@@ -1,0 +1,7 @@
+.env
+**/*.zip
+**/*.tfstate
+**/*.tfstate.*
+**/.terraform/
+**/.terraform.*
+.DS_Store

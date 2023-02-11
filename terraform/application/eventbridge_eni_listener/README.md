@@ -1,0 +1,1 @@
+An EventBridge rule that listens to all Elastic Network Interface changes and adds a tag with the timestamp to any newly attached SecurityGroups if the ENI is attached to an EC2 instance. This tag is added in order to trigger a new AWS Config evaluation and potential remediation of the SecurityGroup. 

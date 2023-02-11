@@ -1,0 +1,1 @@
+AWS Config rule that listens to any SecurityGroup changes and evaluates these by invoking the `evaluate_security_group` lambda. If `NON_COMPLIANT` then the `remediate_security_group` is invoked by the AWS config rule.
